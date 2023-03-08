@@ -3,7 +3,7 @@ properties([pipelineTriggers([githubPush()])])
 pipeline {
     environment {
         // Global 변수 선언
-        dockerRepo = "211.43.13.226:40010/edu12"
+        dockerRepo = "211.43.13.226:40010/ubomi"
         dockerCredentials = 'nexus_ci_edu12'
         dockerImageVersioned = ""
         dockerImageLatest = ""
